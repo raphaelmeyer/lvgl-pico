@@ -21,8 +21,8 @@ RUN git clone https://github.com/raspberrypi/pico-sdk.git /pico-sdk \
 
 ENV PICO_SDK_PATH /pico-sdk
 
+RUN useradd -ms /bin/bash newuser
 RUN mkdir /build && chown -R vscode:vscode /build
-
 USER vscode
 
 VOLUME [ "/build" ]

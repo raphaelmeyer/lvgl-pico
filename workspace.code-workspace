@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "ms-vscode-remote.remote-containers"
+    ]
+  },
+  "settings": {
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+  }
+}

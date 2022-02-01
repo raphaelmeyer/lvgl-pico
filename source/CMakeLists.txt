@@ -14,19 +14,18 @@ add_executable(helloworld)
 
 target_sources(helloworld PRIVATE
   main.cc
+  display.cc
+  st7735.cc
 )
 
 target_link_libraries(helloworld PRIVATE
   pico_stdlib
+  hardware_spi
   lvgl::lvgl
 )
 
 target_compile_options(helloworld PRIVATE -Wall -Wextra -Werror -Wno-ignored-qualifiers)
 
 pico_add_extra_outputs(helloworld)
-
-
-
-
 
 add_subdirectory(lvgl)

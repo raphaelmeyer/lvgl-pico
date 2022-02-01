@@ -18,6 +18,7 @@
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "C_Cpp.clang_format_style": "LLVM",
+    "C_Cpp.autoAddFileAssociations": false,
     "cmake.buildDirectory": "/build",
     "cmake.sourceDirectory": "/workspace/source"
   }

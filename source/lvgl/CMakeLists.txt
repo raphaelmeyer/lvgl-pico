@@ -1,6 +1,6 @@
 include(FetchContent)
 
-set(LV_CONF_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lvgl/lv_conf.h CACHE STRING "" FORCE)
+set(LV_CONF_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lv_conf.h CACHE STRING "" FORCE)
 
 FetchContent_Declare(
   lvgl
